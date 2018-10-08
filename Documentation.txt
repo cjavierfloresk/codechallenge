@@ -1,0 +1,7 @@
+The single page Calculator lives in the public folder of the proyect.
+
+The migration script is implemented as a rake task:
+
+rake migrate
+
+Looks for the products.json file in the root folder of the proyect.

@@ -1,0 +1,47 @@
+List All
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products.json
+METHOD: GET
+
+
+List One
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products.json?length=48&width=14&height=12&weight=42
+METHOD: GET
+
+
+Show
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products/5bb916f3a003e7131c6dae39.json
+METHOD: GET
+
+
+Create
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products.json
+METHOD: POST
+
+{
+    "id": "5bba13d1a003e71a989e53a1",
+    "name": "Hyper Mega Small Package",
+    "type": "Golf",
+    "length": 48,
+    "width": 14,
+    "height": 12,
+    "weight": 42
+}
+
+
+Update
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products/5bb94390a003e71a989e53a0.json
+METHOD: PATCH
+{
+    "name": "Super Mega Small Package 2233"
+}
+
+
+Delete
+----------------------------------------------------------------------
+http://localhost:3000/api/v1/products/5bb93f2da003e71a989e539f.json
+METHOD: DELETE
